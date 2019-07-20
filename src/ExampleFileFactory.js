@@ -6,6 +6,6 @@ import { BaseFileFactory } from 'core'
     }
 
      static get name() {
-        return "Dummy"
+        return "Just an Example"
     }
 } 

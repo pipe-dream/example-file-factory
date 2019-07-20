@@ -1,5 +1,5 @@
 {
-  "name": "example-file-factory",
+  "name": "@pipe-dream/example-file-factory",
   "version": "1.0.0",
   "description": "Example FileFactory implementation for Pipe Dream. This repo is for testing and development only.",
   "main": "src/index.js",
