@@ -1,5 +1,8 @@
- export default class ExampleFileFactory {
-    constructor() {
+ import { BaseFileFactory } from '@pipe-dream/core'
+ 
+ export default class ExampleFileFactory extends BaseFileFactory{
+    constructor(arg) {
+        super(arg)
         this.pipes = []
     }
 
@@ -33,10 +36,6 @@
 
     static defaultPreferences() {
         return {}
-    }
-
-    static from(objectModelCollection) {
-        return new this(objectModelCollection)
     }
 
     withPipes(pipes) {
