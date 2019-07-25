@@ -1,6 +1,6 @@
 {
   "name": "@pipe-dream/example-file-factory",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Example FileFactory implementation for Pipe Dream. This repo is for testing and development only.",
   "main": "src/index.js",
   "repository": "git@github.com:pipe-dream/example-file-factory.git",
@@ -37,7 +37,7 @@
     "transformIgnorePatterns": [
       "/node_modules/(?!@pipe-dream/core).+\\.js$"
     ]
-  },  
+  },
   "dependencies": {
     "@pipe-dream/core": "^1.0.4",
     "@vue/test-utils": "^1.0.0-beta.29",
@@ -66,5 +66,5 @@
     "vue-template-compiler": "^2.6.10",
     "vue-textarea-autosize": "^1.0.4",
     "vuex": "^3.1.0"
-  } 
+  }
 }
